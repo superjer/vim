@@ -263,6 +263,12 @@ static char *(highlight_init_both[]) = {
     "default link PmenuExtra Pmenu",
     "default link PmenuExtraSel PmenuSel",
     CENT("Normal cterm=NONE", "Normal gui=NONE"),
+    CENT("RegexSpecial ctermfg=Blue",
+         "RegexSpecial ctermfg=Blue guifg=Blue"),
+    CENT("RegexClass ctermfg=Yellow",
+         "RegexClass ctermfg=Yellow guifg=Yellow"),
+    CENT("RegexWhack ctermfg=Gray",
+         "RegexWhack ctermfg=Gray guifg=Gray"),
     NULL
 };
 
